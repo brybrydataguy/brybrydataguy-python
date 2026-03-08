@@ -11,11 +11,5 @@ uv add brybrydataguy
 ## Meterstick Decomposition Operators
 
 ```python
-from brybrydataguy import WithinEffect, MixEffect, InteractionEffect
-```
-
-Or through the submodule:
-
-```python
-from brybrydataguy.meterstick_ect import WithinEffect, MixEffect, InteractionEffect
+from brybrydataguy.meterstick_ext import WithinEffect, MixEffect, InteractionEffect
 ```

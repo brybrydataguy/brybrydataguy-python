@@ -4,7 +4,7 @@ import pandas as pd
 from meterstick import metrics, operations
 from scipy import stats
 
-from brybrydataguy.meterstick_ect import InteractionEffect, MixEffect, WithinEffect
+from brybrydataguy.meterstick_ext import InteractionEffect, MixEffect, WithinEffect
 
 
 def _sample_df() -> pd.DataFrame:
