@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "brybrydataguy"
+version = "0.1.0"
+description = "Bryan's Python tools for analytics workflows."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+  "meterstick",
+  "pandas>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/bryansmith/brybrydataguy-python"
+Repository = "https://github.com/bryansmith/brybrydataguy-python"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/brybrydataguy"]
